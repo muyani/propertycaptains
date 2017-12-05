@@ -1,0 +1,4 @@
+AuthName "Sasa@www@001"
+AuthUserFile "/home/proper11/.htpasswds/public_html/passwd"
+AuthType Basic
+require valid-user

@@ -1,0 +1,59 @@
+
+<?php
+
+?>
+<!doctype html>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		
+		<title> properties</title>
+
+		<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/jqc-1.12.3/moment-2.18.1/dt-1.10.16/b-1.4.2/sl-1.2.3/datatables.min.css">
+		<link rel="stylesheet" type="text/css" href="css/generator-base.css">
+		<link rel="stylesheet" type="text/css" href="css/editor.dataTables.min.css">
+
+		<script type="text/javascript" charset="utf-8" src="https://cdn.datatables.net/v/dt/jqc-1.12.3/moment-2.18.1/dt-1.10.16/b-1.4.2/sl-1.2.3/datatables.min.js"></script>
+		<script type="text/javascript" charset="utf-8" src="js/dataTables.editor.min.js"></script>
+		<script type="text/javascript" charset="utf-8" src="js/table.properties.js"></script>
+	</head>
+	<body class="dataTables">
+		<div class="container">
+	<div class="container">
+		
+
+			<h1>
+				Property Captains   <span></span>
+			</h1>
+			<p style="float:right"><a href="/admin.php">back</a></p>
+			<form action="refresh.php" method="post">
+<button type="submit" name='refresh' id="refresh" value="refresh"> Refresh Database </button>
+</form>
+			
+			<table cellpadding="0" cellspacing="0" border="0" class="display" id="properties" width="100%">
+				<thead>
+					<tr>
+						<th>property name</th>
+						<th>property type</th>
+						<th>property price</th>
+						<th>featured</th>
+						<th>available</th>
+						<th>time stamp</th>
+						<th>location id</th>
+						<th>short desc</th>
+						<th>full desc</th>
+						<th>outdoor feature</th>
+						<th>parking slots</th>
+						<th>floor location</th>
+						<th>living area size</th>
+						<th>ground size</th>
+						<th>bedrooms</th>
+						<th>bathrooms</th>
+						<th>transaction type </th>
+					</tr>
+				</thead>
+			</table>
+
+		</div>
+	</body>
+</html>
